@@ -27,10 +27,10 @@ const Hero:React.FC = () => {
 					Register
 				</a>
 			</div>
-			<div className="rounded-md shadow">
+			<div className="rounded-md shadow w-full flex items-center justify-center py-4 px-12 font-semibold bg-gry text-cream text-2xl border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case">
 				<Link
 					href="/info"
-					className="w-full flex items-center justify-center py-4 px-12 font-semibold bg-gry text-cream rounded-md text-2xl border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
+					className=""
 				>
 					View Details
 				</Link>
