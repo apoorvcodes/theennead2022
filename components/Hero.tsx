@@ -23,6 +23,7 @@ const Hero: React.FC = () => {
           <div className="rounded-md shadow ">
             <a
               target="_blank"
+			  rel="noreferrer"
               href="https://docs.google.com/forms/d/e/1FAIpQLSeiTo3tspIVvluYB8ZFMwFXu8wXOT4ZffJ5f73XVKRSCaZ2Tw/viewform"
               className="w-full flex items-center justify-center py-4 px-12 font-semibold bg-prime text-cream rounded-md text-2xl border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
             >

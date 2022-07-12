@@ -29,6 +29,7 @@ const Footer = () => {
         </Link>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://docs.google.com/forms/d/e/1FAIpQLSeiTo3tspIVvluYB8ZFMwFXu8wXOT4ZffJ5f73XVKRSCaZ2Tw/viewform"
           className="link link-hover"
         >
@@ -39,6 +40,7 @@ const Footer = () => {
         <span className="footer-title">Social Media</span>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://www.instagram.com/theennead2022/"
           className="link link-hover"
         >
@@ -46,6 +48,7 @@ const Footer = () => {
         </a>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://www.facebook.com/TheEnnead2022-105890242178913/?ref=page_internal"
           className="link link-hover"
         >
@@ -53,6 +56,7 @@ const Footer = () => {
         </a>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://www.reddit.com/r/TheEnneadMUN2022/"
           className="link link-hover"
         >
@@ -60,6 +64,7 @@ const Footer = () => {
         </a>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://www.twitter.com/theennead2022/"
           className="link link-hover"
         >
