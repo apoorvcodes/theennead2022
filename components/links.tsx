@@ -1,18 +1,22 @@
-import React from 'react'
-import {BsFillTelephoneFill} from "react-icons/bs"
-import {AiOutlineInstagram, AiOutlineFacebook, AiOutlineReddit} from "react-icons/ai"
-import {FiTwitter, FiMail} from "react-icons/fi"
+import React from "react";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import {
+  AiOutlineInstagram,
+  AiOutlineFacebook,
+  AiOutlineReddit,
+} from "react-icons/ai";
+import { FiTwitter, FiMail } from "react-icons/fi";
 const links = () => {
   return (
-    <div className='flex justify-center items-center space-x-6 text-2xl md:text-3xl'>
-        <BsFillTelephoneFill color='white' />
-        <AiOutlineInstagram color='white' />
-        <FiTwitter color='white' />
-        <AiOutlineFacebook color='white' />
-        <AiOutlineReddit color='white'/>
-        <FiMail color='white' />
+    <div className="flex justify-center items-center space-x-6 text-2xl md:text-3xl">
+      <BsFillTelephoneFill color="white" />
+      <AiOutlineInstagram color="white" />
+      <FiTwitter color="white" />
+      <AiOutlineFacebook color="white" />
+      <AiOutlineReddit color="white" />
+      <FiMail color="white" />
     </div>
-  )
-}
+  );
+};
 
-export default links
+export default links;

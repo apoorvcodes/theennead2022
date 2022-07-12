@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Custom404 = () => {
-  return (
-    <div>Custom404</div>
-  )
-}
+  return <div>Custom404</div>;
+};
 
-export default Custom404
+export default Custom404;

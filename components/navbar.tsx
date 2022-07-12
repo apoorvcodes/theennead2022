@@ -29,7 +29,7 @@ const Nav = () => {
             animate={{ y: 5, opacity: 1 }}
             transition={{ duration: 1 }}
           >
-           <Link href="/">Home</Link>
+            <Link href="/">Home</Link>
           </motion.div>
           <motion.div
             className="text-prime
@@ -47,16 +47,19 @@ const Nav = () => {
             animate={{ y: 5, opacity: 1 }}
             transition={{ duration: 1 }}
           >
-         <Link href="/committees">Committees</Link>
+            <Link href="/committees">Committees</Link>
           </motion.div>
           <motion.div
             className=" w-1/3 md:w-1/4 text-4xl flex bg-cream items-center font-bold bg-red text-prime justify-center pt-4 pb-4 rounded-md shadow border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
-
             animate={{ y: 5, opacity: 1 }}
             transition={{ duration: 1 }}
           >
-            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeiTo3tspIVvluYB8ZFMwFXu8wXOT4ZffJ5f73XVKRSCaZ2Tw/viewform">Register</a>
- 
+            <a
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeiTo3tspIVvluYB8ZFMwFXu8wXOT4ZffJ5f73XVKRSCaZ2Tw/viewform"
+            >
+              Register
+            </a>
           </motion.div>
         </motion.nav>
       ) : (
