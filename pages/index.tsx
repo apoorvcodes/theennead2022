@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Nav from '../components/navbar'
 import Hero from '../components/Hero'
+import Footer from "../components/Footer"
 const Home: NextPage = () => {
   return (
     <div className='bg-mainbg min-w-full min-h-screen'>
@@ -13,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
      <Nav/>
      <Hero/>
-     
+     <Footer/>
     </div>
   )
 }

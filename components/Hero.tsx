@@ -1,12 +1,13 @@
 import React from 'react'
+import Links from './links'
 import Image from 'next/image'
 const Hero:React.FC = () => {
   return (
-    <div className='flex flex-col justify-center items-center pt-12'>
+    <div className='flex flex-col justify-center items-center  min-h-screen'>
     <Image src={require("../public/img/logo.png")}/>
     <div className="flex justify-center pt-8 flex-col items-center pb-12">
 		<div className="text-center">
-			<div className="text-5xl text-cream tracking-tight text-base-content font-semibold sm:text-5xl md:text-7xl text-center">
+			<div className="text-5xl text-cream tracking-tight font-semibold sm:text-5xl md:text-7xl text-center">
 				<span className="inline-flex">The </span>
 				<span className="inline-flex text-prime">Ennead</span>
 			</div>
@@ -34,7 +35,7 @@ const Hero:React.FC = () => {
 				</a>
 			</div>
 		</div>
-		<footer className="text-sm text-center pt-8">DEVELOPED BY MINIMA CORE TEAM™</footer>
+		<footer className="text-sm text-center pt-8"><Links/></footer>
 	</div>
     </div>
   )
