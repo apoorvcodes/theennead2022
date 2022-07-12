@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Nav from '../components/navbar'
-
+import Hero from '../components/Hero'
 const Home: NextPage = () => {
   return (
     <div className='bg-mainbg min-w-full min-h-screen'>
@@ -12,6 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
      <Nav/>
+     <Hero/>
      
     </div>
   )
