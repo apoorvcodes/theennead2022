@@ -1,5 +1,6 @@
 import React from 'react'
 import Links from './links'
+import Link from "next/link"
 import Image from 'next/image'
 const Hero:React.FC = () => {
   return (
@@ -20,19 +21,19 @@ const Hero:React.FC = () => {
 		<div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start space-x-6">
 			<div className="rounded-md shadow ">
 				<a
-					href="https://guide.gominima.studio"
+					target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeiTo3tspIVvluYB8ZFMwFXu8wXOT4ZffJ5f73XVKRSCaZ2Tw/viewform"
 					className="w-full flex items-center justify-center py-4 px-12 font-semibold bg-prime text-cream rounded-md text-2xl border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
 				>
 					Register
 				</a>
 			</div>
 			<div className="rounded-md shadow">
-				<a
-					href="https://guide.gominima.studio"
+				<Link
+					href="/info"
 					className="w-full flex items-center justify-center py-4 px-12 font-semibold bg-gry text-cream rounded-md text-2xl border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
 				>
 					View Details
-				</a>
+				</Link>
 			</div>
 		</div>
 		<footer className="text-sm text-center pt-8"><Links/></footer>
