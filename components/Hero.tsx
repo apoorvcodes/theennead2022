@@ -9,8 +9,10 @@ const Hero: React.FC = () => {
       <div className="flex justify-center pt-8 flex-col items-center pb-12">
         <div className="text-center">
           <div className="text-5xl text-cream tracking-tight font-semibold sm:text-5xl md:text-7xl text-center">
+            <Link href="/"> 
             <span className="inline-flex">The </span>
             <span className="inline-flex text-prime">Ennead</span>
+            </Link>
           </div>
         </div>
         <div className="mt-3 text-cream pl-8 text-lg pr-8 md:p-2 sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0 text-center font-open">
