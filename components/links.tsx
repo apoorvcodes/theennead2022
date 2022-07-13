@@ -3,7 +3,7 @@ import {
   AiOutlineInstagram,
   AiOutlineFacebook,
   AiOutlineReddit,
-  AiOutlinePhone
+  AiOutlinePhone,
 } from "react-icons/ai";
 import { FiTwitter, FiMail } from "react-icons/fi";
 const links = () => {

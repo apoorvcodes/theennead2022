@@ -13,7 +13,7 @@ const Footer = () => {
         <p className="text-white text-lg">
           The Ennead
           <br />
-          <span className="text-cream">Providing reliable tech since 1992</span>
+          <span className="text-cream">Mun club at Sunbeam</span>
         </p>
       </div>
       <div>
