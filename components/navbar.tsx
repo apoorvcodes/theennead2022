@@ -11,7 +11,11 @@ const Nav = () => {
     <div className="container mx-auto bg-mainbg">
       <div className="flex justify-between pt-4 md:pt-8 pl-8 pr-8 pb-10 md:pb-2">
         <div className="text-4xl md:text-5xl text-cream font-semibold">
+        <Link href="/"> 
+          <div>
           The<span className="text-prime font-bold">Ennead</span>
+          </div>
+          </Link>
         </div>
         <div className="text-cream " onClick={() => toggle()}>
           <Hamburger size={34} color="#FD0F49" />
