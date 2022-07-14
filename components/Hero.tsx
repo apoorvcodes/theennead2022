@@ -19,8 +19,11 @@ const Hero: React.FC = () => {
           change the world from its grassroots. Change through discourse and
           communication is our agenda.
         </div>
-        <a href="http://www.sunbeamschools.com/school/bhagwanpur" className="mt-3 text-prime font-bold pl-8 text-lg pr-8 md:p-2 sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0 text-center font-open">
-         PRESENTED BY SUNBEAM BHAGWANPUR
+        <a
+          href="http://www.sunbeamschools.com/school/bhagwanpur"
+          className="mt-3 text-prime font-bold pl-8 text-lg pr-8 md:p-2 sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0 text-center font-open"
+        >
+          PRESENTED BY SUNBEAM BHAGWANPUR
         </a>
         <div className="mt-5 md:space-x-6 flex-col s sm:mt-8 flex md:flex-row sm:justify-center lg:justify-start ">
           <div className="rounded-md shadow ">

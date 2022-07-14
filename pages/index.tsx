@@ -15,7 +15,6 @@ const Home: NextPage = () => {
       <Nav />
       <Hero />
       <Footer />
-     
     </div>
   );
 };
