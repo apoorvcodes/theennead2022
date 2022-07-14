@@ -49,7 +49,8 @@ const Nav = () => {
           <motion.div
             className="text-prime
             hover:text-cream 
-		t        ext-5xl font-bold opacity-0"
+            text-3xl
+		         md:text-5xl font-bold opacity-0"
             animate={{ y: 5, opacity: 1 }}
             transition={{ duration: 1 }}
           >
@@ -58,7 +59,8 @@ const Nav = () => {
           <motion.div
             className="text-prime
             hover:text-cream  
-		text-5xl font-bold opacity-0"
+            text-3xl
+            md:text-5xl font-bold opacity-0"
             animate={{ y: 5, opacity: 1 }}
             transition={{ duration: 1 }}
           >
@@ -67,14 +69,16 @@ const Nav = () => {
           <motion.div
             className="text-prime 
             hover:text-cream 
-		         text-5xl font-bold opacity-0"
+            text-3xl
+            md:text-5xl font-bold opacity-0"
             animate={{ y: 5, opacity: 1 }}
             transition={{ duration: 1 }}
           >
             <Link href="/committees">Committees</Link>
           </motion.div>
           <motion.div
-            className=" w-1/3 md:w-1/4 text-4xl flex bg-cream items-center font-bold bg-red text-prime justify-center pt-4 pb-4 rounded-md shadow border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
+            className=" text-3xl
+            md:text-5xl w-1/3 md:w-1/4  flex bg-cream items-center font-bold bg-red text-prime justify-center pt-4 pb-4 rounded-md shadow border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
             animate={{ y: 5, opacity: 1 }}
             transition={{ duration: 1 }}
           >

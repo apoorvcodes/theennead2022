@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-black text-base-content pl-24 pr-24">
+    <footer className="footer pl-4 pr-4  md:p-10 pb-0 bg-black text-base-content md:pl-24 md:pr-24">
       <div>
         <Image
           className="rounded-full"
