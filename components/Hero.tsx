@@ -6,13 +6,11 @@ const Hero: React.FC = () => {
   return (
     <div className="flex flex-col justify-center items-center  min-h-screen">
       <Image src={require("../public/img/logo.png")} />
-      <div className="flex justify-center pt-8 flex-col items-center pb-12">
+      <div className="flex justify-center pt-6 flex-col items-center pb-12">
         <div className="text-center">
           <div className="text-5xl text-cream tracking-tight font-semibold sm:text-5xl md:text-7xl text-center">
-            
             <span className="inline-flex">The </span>
             <span className="inline-flex text-prime">Ennead</span>
-          
           </div>
         </div>
         <div className="mt-3 text-cream pl-8 text-lg pr-8 md:p-2 sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0 text-center font-open">
@@ -21,7 +19,10 @@ const Hero: React.FC = () => {
           change the world from its grassroots. Change through discourse and
           communication is our agenda.
         </div>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start space-x-6">
+        <a href="http://www.sunbeamschools.com/school/bhagwanpur" className="mt-3 text-prime font-bold pl-8 text-lg pr-8 md:p-2 sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0 text-center font-open">
+         PRESENTED BY SUNBEAM BHAGWANPUR
+        </a>
+        <div className="mt-5 md:space-x-6 flex-col s sm:mt-8 flex md:flex-row sm:justify-center lg:justify-start ">
           <div className="rounded-md shadow ">
             <a
               target="_blank"

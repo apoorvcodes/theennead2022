@@ -6,6 +6,7 @@ const Footer = () => {
     <footer className="footer p-10 bg-black text-base-content pl-24 pr-24">
       <div>
         <Image
+          className="rounded-full"
           width={100}
           height={100}
           src={require("../public/img/logo.png")}
