@@ -74,7 +74,7 @@ const Nav = () => {
             animate={{ y: 5, opacity: 1 }}
             transition={{ duration: 1 }}
           >
-            <Link href="/committees">Committees</Link>
+            <Link href="/committees/info">Committees</Link>
           </motion.div>
           <motion.div
             className=" text-3xl
