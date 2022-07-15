@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
             </a>
           </div>
           <div className="rounded-md shadow w-full flex items-center justify-center py-4 px-12 font-semibold bg-gry text-cream text-2xl border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case">
-            <Link href="/info" className="">
+            <Link href="/committees/info" className="">
               View Details
             </Link>
           </div>
