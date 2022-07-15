@@ -4,8 +4,6 @@ const About = () => {
   return (
     <div className="flex flex-col-reverse space-y-36 md:space-x-0 p-24 justify-center items-center md:justify-center min-h-screen md:p-36 bg-mainbg">
      <Image
-        width={2000}
-        height={1500}
         className="pl-12 rounded-2xl pr-12 pb-12 md:p-0"
         src={require("../public/img/ind.png")}
       />
