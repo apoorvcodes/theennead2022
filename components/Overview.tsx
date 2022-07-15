@@ -70,7 +70,7 @@ const Overview = () => {
               and services needed to ensure that the standards are effectively
               implemented and truly benefit women and girls worldwide. It works
               globally to make the vision of the Sustainable Development Goals a
-              reality for women and girls and stands behind women"s equal
+              reality for women and girls and stands behind womens equal
               participation in all aspects of life, focusing on four strategic
               priorities: Women lead, participate in and benefit equally from
               governance systems Women have income security, decent work and
@@ -79,7 +79,7 @@ const Overview = () => {
               influence in building sustainable peace and resilience, and
               benefit equally from the prevention of natural disasters and
               conflicts and humanitarian action UN Women also coordinates and
-              promotes the UN system's work in advancing gender equality, and in
+              promotes the UN systems work in advancing gender equality, and in
               all deliberations and agreements linked to the 2030 Agenda. The
               entity works to position gender equality as fundamental to the
               Sustainable Development Goals, and a more inclusive world.
@@ -93,7 +93,7 @@ const Overview = () => {
             <div className="text-lg">
               The Office of the High Commissioner for Human Rights (UN Human
               Rights) is the leading UN entity on human rights. It represents
-              the world's commitment to the promotion and protection of the full
+              the worlds commitment to the promotion and protection of the full
               range of human rights and freedoms set out in the Universal
               Declaration of Human Rights. Both the High Commissioner and the
               Office have a unique role to: Promote and protect all human
@@ -153,9 +153,10 @@ const Overview = () => {
         <div className="flex space-y-12  flex-col ring ring-prime w-2/3 rounded-md justify-center items-center p-8">
           <div className="text-5xl text-cream font-bold">WHO</div>
           <div className="flex justify-center items-center space-x-12">
+            
             {/* <Image src={require("../../public/img/ecosoc.png")} width={400} height={400} /> */}
             <div className="text-lg">
-              The WHO's mandate seeks and includes: working worldwide to promote
+              The WHOs mandate seeks and includes: working worldwide to promote
               health, keeping the world safe, and serving the vulnerable. It
               advocates that a billion more people should have: universal health
               care coverage, engagement with the monitoring of public health
@@ -172,7 +173,7 @@ const Overview = () => {
               Ebola, COVID-19, malaria and tuberculosis; non-communicable
               diseases such as heart disease and cancer; healthy diet,
               nutrition, and food security; occupational health; and substance
-              abuse. Its World Health Assembly, the agency's decision-making
+              abuse. Its World Health Assembly, the agencys decision-making
               body, elects and advises an executive board made up of 34 health
               specialists. It selects the director-general, sets goals and
               priorities, and approves the budget and activities.

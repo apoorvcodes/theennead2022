@@ -88,6 +88,7 @@ const Agenda = () => {
             </div>
           </div>
         </div>
+        
         <div className="flex space-y-12  flex-col ring ring-prime w-2/3 rounded-md justify-center items-center p-8">
           <div className="text-5xl text-cream font-bold">UNHRC</div>
           <div className="flex justify-center items-center space-x-12">
@@ -102,7 +103,7 @@ const Agenda = () => {
               About 6.8 million Syrians are refugees and asylum-seekers, and
               another 6.7 million people are displaced within Syria. This means
               13.5 million Syrians in total are forcibly displaced, more than
-              half of the country"s population. Nearly 11.1 million people in
+              half of the countrys population. Nearly 11.1 million people in
               Syria need humanitarian assistance.
             </div>
           </div>
@@ -117,7 +118,7 @@ const Agenda = () => {
               times and promoted the progress of human civilization contributing
               greatly to the prosperity and development of the countries along
               this trade route. The blueprint of the revival plan in the name of
-              the “one belt one road” initiative was presented by China"s
+              the “one belt one road” initiative was presented by Chinas
               National Development and Reform Commission (NDRC) in 2013. Since
               then the project has become the single largest focal point of
               Chinas foreign policy. The project links Eurasian landmass with
