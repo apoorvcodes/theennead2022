@@ -23,9 +23,9 @@ const Agenda = () => {
               extended into the economic base as well, as the US and NATO put
               several sanctions on Russia. As the sanctions are designed to
               wreak the Russian economy, we see the US, UK, the EU and Canada to
-              be the major players- wishing to “hold Russia to account and
+              be the major players- wishing to hold Russia to account and
               collectively ensure that this war is a strategic failure for
-              Putin.” The world has been divided over the Ukraine conflict,
+              Putin. The world has been divided over the Ukraine conflict,
               making it as of right now, one of the most important violent
               issues to resolve.
             </div>
@@ -42,9 +42,9 @@ const Agenda = () => {
               differ significantly. This is typically a war between a standing,
               professional army and an insurgency or resistance movement militia
               who often have the status of unlawful combatants. Asymmetric
-              warfare can describe a conflict in which two belligerents"
+              warfare can describe a conflict in which two belligerents
               resources are uneven and, in the struggle, interact and attempt to
-              exploit each other"s characteristic weaknesses. Such struggles
+              exploit each others characteristic weaknesses. Such struggles
               often involve strategies and tactics of unconventional warfare,
               the weaker combatants attempting to use strategy to offset
               deficiencies in quantity or quality of their forces and
@@ -83,7 +83,7 @@ const Agenda = () => {
               with the stark reality that they are forced to endure abuse. If
               they try to extricate themselves from the situation of abuse, they
               invariably face social stigma, social isolation, persecution for
-              leaving their homes by the authorities and honour killings by
+              leaving their homes by the authorities and honor killings by
               their relatives.
             </div>
           </div>
@@ -112,7 +112,7 @@ const Agenda = () => {
           <div className="flex justify-center items-center space-x-12">
             {/* <Image src={require("../../public/img/ecosoc.png")} width={400} height={400} /> */}
             <div className="text-lg">
-              OBOR is an initiative to revive China's old Silk Trade Route1,
+              OBOR is an initiative to revive Chinas old Silk Trade Route1,
               which used to pass through Asia, Africa and Europe in ancient
               times and promoted the progress of human civilization contributing
               greatly to the prosperity and development of the countries along
@@ -120,7 +120,7 @@ const Agenda = () => {
               the “one belt one road” initiative was presented by China"s
               National Development and Reform Commission (NDRC) in 2013. Since
               then the project has become the single largest focal point of
-              China's foreign policy. The project links Eurasian landmass with
+              Chinas foreign policy. The project links Eurasian landmass with
               Indo-Pacific maritime routes through road, rail and port projects.
               A number of flagship projects have been announced this grand
               initiative such as China-Pakistan Economic Corridor (CPEC), New
