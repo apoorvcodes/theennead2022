@@ -5,7 +5,7 @@ import Image from "next/image";
 const Hero: React.FC = () => {
   return (
     <div className="flex flex-col justify-center items-center  min-h-screen">
-      <Image src={require("../public/img/logo.png")} />
+      {/* <Image src={require("../public/img/logo.png")} /> */}
       <div className="flex justify-center pt-6 flex-col items-center pb-12">
         <div className="text-center">
           <div className="text-5xl text-cream tracking-tight font-semibold sm:text-5xl md:text-7xl text-center">
