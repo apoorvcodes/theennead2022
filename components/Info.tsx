@@ -26,17 +26,17 @@ const Info = () => {
           debaters and as people!
         </div>
       </div>
-      <div className="flex flex-row space-x-6 items-start">
+      <div className="flex flex-row space-x-6 items-start hover:cursor-pointer ">
+      <Link href="/committees/agenda" className="">
         <div className="rounded-md shadow w-full flex items-center justify-center py-4 px-12 font-semibold bg-prime text-cream text-2xl border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case">
-          <Link href="/committees/agenda" className="">
             Agenda
-          </Link>
         </div>
+      </Link>
+      <Link href="/committees/overview" className="">
         <div className="rounded-md shadow w-full flex items-center justify-center py-4 px-12 font-semibold bg-prime text-cream text-2xl border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case">
-          <Link href="/committees/overview" className="">
             Overview
-          </Link>
         </div>
+      </Link>
       </div>
     </div>
   );
