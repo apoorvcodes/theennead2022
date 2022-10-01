@@ -11,7 +11,7 @@ module.exports = {
       },
       colors: {
       'mainbg': "#000814",
-      'prime': "#FD0F49",
+      'prime': "#AA00FF",
       "cream": "#DBE9EE",
       "secondry": "#BD113D",
       "gry" : "#808080"
